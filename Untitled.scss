@@ -181,7 +181,7 @@ $sizes: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:       white;
+$body-bg:       #a6d6d3;
 $body-color:    $gray-dark !default;
 $inverse-bg:    $gray-dark !default;
 $inverse-color: $gray-lighter !default;
@@ -247,7 +247,7 @@ $grid-gutter-widths: (
 $font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$font-family-base:       $font-family-sans-serif !default;
+$font-family-base:       Champagne&Limousines;
 
 $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg:   1.25rem !default;
