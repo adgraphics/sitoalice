@@ -247,7 +247,7 @@ $grid-gutter-widths: (
 $font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$font-family-base:       "https://fonts.googleapis.com/css?family=Roboto";
+$font-family-base:       $font-family-sans-serif !default;
 
 $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg:   1.25rem !default;
@@ -268,7 +268,7 @@ $font-size-h5: 1.25rem !default;
 $font-size-h6: 1rem !default;
 
 $headings-margin-bottom: ($spacer / 2) !default;
-$headings-font-family:   "https://fonts.googleapis.com/css?family=Montserrat";
+$headings-font-family:   $font-family-sans-serif !default;
 $headings-font-weight:   500 !default;
 $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
